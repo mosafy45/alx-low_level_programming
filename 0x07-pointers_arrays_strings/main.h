@@ -12,7 +12,8 @@ char *cap_string(char *a);
 char *leet(char *a);
 char *rot13(char *a);
 void print_number(int n);
-char *infinite_add(char *n1, char *n2, char *r, int size_r);
-void print_buffer(char *b, int size);
+void print_chessboard(char (*a)[8]);
+void set_string(char **s, char *to);
+void print_diagsums(int *a, int size);
 
 #endif
